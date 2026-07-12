@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+    <packageId>wishRobber.embrasuregatefix</packageId>
+    <name>Castle Gates Connect to Embrasures</name>
+    <author>wishRobber</author>
+    <description>Vanilla's multi-tile doors and gates (including Vanilla Factions Expanded - Medieval 2's castle doors/gates) only accept a wall on their ends if that wall has Full fillage. Embrasure walls (e.g. Medieval Overhaul's DankPyon_CastleWallEmbrasures, Fortifications - Medieval's FT_CastleWallEmbrasures) use Partial fillage so pawns can see and shoot through them, which makes the door report "Must be connected to walls on both sides to function" and stop sealing.
+
+This patches the vanilla wall check (DoorUtility.EncapsulatingWallAt) so any impassable, roof-holding, non-door building - i.e. embrasure walls - also counts as an encapsulating wall. The embrasures keep their Partial fillage, so the see/shoot-through property is fully preserved. Works generically with any mod's embrasure walls; does nothing if none are present.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>OskarPotocki.VFE.Medieval2</li>
+        <li>DankPyon.Medieval.Overhaul</li>
+        <li>Aoba.Fortress.Medieval</li>
+    </loadAfter>
+</ModMetaData>
