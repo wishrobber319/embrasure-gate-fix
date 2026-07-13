@@ -3,9 +3,7 @@
     <packageId>wishRobber.embrasuregatefix</packageId>
     <name>Castle Gates Connect to Embrasures</name>
     <author>wishRobber</author>
-    <description>Vanilla's multi-tile doors and gates (including Vanilla Factions Expanded - Medieval 2's castle doors/gates) only accept a wall on their ends if that wall has Full fillage. Embrasure walls (e.g. Medieval Overhaul's DankPyon_CastleWallEmbrasures, Fortifications - Medieval's FT_CastleWallEmbrasures) use Partial fillage so pawns can see and shoot through them, which makes the door report "Must be connected to walls on both sides to function" and stop sealing.
-
-This patches the vanilla wall check (DoorUtility.EncapsulatingWallAt) so any impassable, roof-holding, non-door building - i.e. embrasure walls - also counts as an encapsulating wall. The embrasures keep their Partial fillage, so the see/shoot-through property is fully preserved. Works generically with any mod's embrasure walls; does nothing if none are present.</description>
+    <description>Stop castle gates from breaking against embrasure walls. Multi-tile doors and gates (including Vanilla Factions Expanded – Medieval 2's castle gates) refuse to seal against see-through embrasures; this lets any embrasure wall — Medieval Overhaul, Fortifications – Medieval, and others — count as a proper connection while keeping the shoot-through slots. Works with any embrasure mod.</description>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
