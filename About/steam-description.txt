@@ -1,0 +1,9 @@
+[b]Gates that actually seal against embrasures.[/b] Multi-tile doors and gates, including Vanilla Factions Expanded - Medieval 2's castle gates, refuse to close against see-through embrasure walls. This makes any embrasure count as a proper connection so your gates seal cleanly, without losing the shoot-through slots.
+
+[hr][/hr]
+[b]What's inside[/b]
+[list]
+[*][b]Gates connect to embrasures.[/b] Castle gates and other multi-tile doors treat embrasure walls as a valid connection, so they stop breaking at the seam.
+[*][b]Works with any embrasure mod.[/b] Medieval Overhaul, Fortifications - Medieval and others are all covered.
+[*][b]Slots still shoot through.[/b] The fix keeps embrasures fully usable as firing positions.
+[/list]
